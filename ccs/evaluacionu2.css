@@ -7,7 +7,7 @@ body {font-family: "Roboto", sans-serif;}
 
 div,header,section, footer, article, main {box-sizing: border-box;}
 
-header { padding:15px 50px;
+header { padding:15 px 50 px;
          margin: auto;
          background-color:#1F1F1F;
          color: aliceblue;
@@ -18,25 +18,25 @@ header { padding:15px 50px;
 .container {display: flex;
                      height: auto;}
 
-.section-container {flex: 0 0 30%;
+.section-container {flex: 0 0 30 %;
   display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 4% 5% 50px 3%;
+padding: 4 % 5 % 50 px 3 %;
 background-color:#1F1F1F;
 color: aliceblue;}
 
-.main-container {flex: 0 0 70%;
+.main-container {flex: 0 0 70 %;
                   display: flex;
                   flex-direction: column;
                   justify-content: flex-start;
-                  padding: 50px;
+                  padding: 50 px;
                   background-color: #e65298;
                   color: #1F1F1F;}
 
 .items {text-align: justify;
-        width: 98%;
-        background-size: 100%;}
+        width: 98 %;
+        background-size: 100 %;}
 
 /*Iconos Contacto*/           
 .bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill {color:#e65298;}
@@ -59,7 +59,7 @@ color: aliceblue;}*/
             
                 
 .items h4, .items h5, .items h6 {
-        font-size: 1em;
+        font-size: 1 em;
         text-align: justify;}
                 
 .lista { text-align: justify;
@@ -71,19 +71,19 @@ color: aliceblue;}*/
 
 .final {background-color: #1F1F1F;
         color: aliceblue;
-    padding: 30px 100px 20px 100px;}
+    padding: 30 px 100 px 20 px 100 px;}
 
-.formulario input, .formulario textarea  {width: 100%; 
-    border-radius: 3px;
-    height: 35px;
-    margin-bottom: 5px;
+.formulario input, .formulario textarea  {width: 100 %; 
+    border-radius: 3 px;
+    height: 35 px;
+    margin-bottom: 5 px;
     border-color: transparent;
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.671);}
+    box-shadow: 0 px 0 px 1 px rgba (0, 0, 0, 0.671);}
 
-.formulario textarea {max-width: 100%;
-    min-width: 100%;
-    max-height: 100px;
-    min-height: 100px;}
+.formulario textarea {max-width: 100 %;
+    min-width: 100 %;
+    max-height: 100 px;
+    min-height: 100 px;}
 
 /*Links*/
 .hijo1{color: aliceblue;
@@ -98,7 +98,7 @@ color: aliceblue;}*/
         
 .items a:active {color: white;
             background-color: black;
-            font-size: 1em;}
+            font-size: 1 em;}
 
 .texto a:link { color: aliceblue;
                 font-weight: bold;
@@ -109,12 +109,12 @@ color: aliceblue;}*/
 
 .texto a:active {color: white;
                         background-color: black;
-                        font-size: 1em;}
+                        font-size: 1 em;}
 
 /*Pie de página*/
 
 footer {background-color: #e65298;
-        padding: 20px 5px 20px 5px;}
+        padding: 20 px 5 px 20 px 5 px;}
 
 footer p {text-align: center;
           color:#1F1F1F;}

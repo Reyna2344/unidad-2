@@ -1,11 +1,11 @@
 /*Documento css*/
 
-body { background-color: rgb(35, 36, 36);
+body { background-color: rgb (35, 36, 36);
     font-family: "Oswald", sans-serif;
 color: white;}
 
 h1, h3 { color: tomato; 
-    font-size: 2em; 
+    font-size: 2 em; 
     font-weight: bold; 
     text-transform: uppercase; }
 
@@ -17,19 +17,19 @@ font-weight: bold;}
 /*ESPECIFICIDAD DE SELECTORES*/
 
 .lista { background-color: #c7f1c7; 
-    width: 60%;
-    min-height: 1px;
-    margin: 15px auto;
-    padding: 15px;}
+    width: 60 %;
+    min-height: 1 px;
+    margin: 15 px auto;
+    padding: 15 px;}
 
-.relleno { padding-left: 30px ;}
+.relleno { padding-left: 30 px ;}
 
 .centrar { margin: auto;
     display: block;
-    padding: 5px;}
+    padding: 5 px;}
 
 .cabecera { background: lightpink;
-    padding: 15px 0px;}
+    padding: 15 px 0 px;}
 
 /*Palabra subraydas*/
 

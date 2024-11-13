@@ -1,0 +1,56 @@
+/*DOCUMENTO CSS*/
+
+body {background-color: lavenderblush;
+    font-family: "Afacad Flux", sans-serif;}
+
+* {margin: 0;
+    padding: 0;}
+
+header, main, div, footer, nav, article { box-sizing: border-box;}
+
+h1 { color: mediumvioletred; 
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 2em; 
+    font-weight: bold; }
+
+
+h2 {text-align: center;}
+
+header h1 { color: whitesmoke;
+    background-color: purple;
+    font-size: 3em; 
+    font-weight: bold; 
+}
+
+    /*ESPECIFICIDAD DE SELECTORES*/
+
+div p {text-align: center;}
+
+section p {padding: 15px 150px 15px 150px;}
+
+div table caption h1 {
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 1.5em; 
+    font-weight: bold;  }
+
+.lista { color: whitesmoke;
+    background-color: mediumvioletred; 
+    width: 60%;
+    min-height: 1px;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;}
+
+
+.relleno { padding-left: 30px ;}
+
+.centrar { margin: auto;
+    display: block;
+    padding: 5px;}
+
+    .cabecera { background:rgb(247, 174, 235);
+        padding: 15px 0px;}
+    

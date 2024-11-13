@@ -1,0 +1,82 @@
+/*DOCUMENTO CSS*/
+* {margin: 0;
+padding: 0;}
+
+body {font-family: "PT Sans Caption", sans-serif;}
+
+section, header, footer, div, main {box-sizing: border-box;}
+
+h1 {background:magenta; }
+
+.cabecera { background: cyan; 
+padding: 20px 0px;
+margin-bottom: 25px; }
+
+.tablas { 
+width: 70%; 
+margin: 0px auto 30px auto;}
+
+
+.tablas table {margin: auto;
+    background: magenta ;
+width:100% ;}
+
+main.tablas table {background: cyan;}
+
+.contenido { width: 70%;
+margin: auto;}
+
+.contenido p { padding: 20px 0px;
+    line-height: 5mm }
+
+.pie {height: 200px; 
+background:cyan;}
+
+.pie p {text-align: center; 
+color: magenta;
+font-weight: 700;
+line-height: 10em;}
+
+.tablas tr:first-child {background-color: blueviolet;}
+
+.tablas tr:nth-child(3) {background-color: blue;}
+
+.contenido a:link { color: red;
+text-decoration: none;}
+
+.contenido a:hover {color: blueviolet;
+background-color: aqua;}
+
+.contenido a:active {color: white;
+    background-color: black;
+font-size: 2em;}
+
+.contenido a:focus {color: green;
+    background-color: red;
+font-size: 1em;}
+
+.contenido p:nth-child(even) {color: blue;}
+
+.contenido p:nth-child(odd) {color: magenta;}
+
+.contenido p.hijo1::first-letter {font-size: 5em;
+float: left;
+padding-bottom: 10px;
+padding-right: 15px;}
+
+.contenido p::first-line {text-decoration: line-through;}
+
+.tres::before {content:"";
+    display:block ;
+    width:50px ;
+    height: 50px;
+    background-image: url(/img/corazon.png);
+    background-size: 100%;
+    position: relative;
+    left: -55px;
+    top: 50px;
+}
+
+
+
+

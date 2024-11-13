@@ -1,0 +1,89 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+body {font-family: "Istok Web", sans-serif;}
+
+section, header, footer, div, main, img {box-sizing: border-box;}
+
+h1 {background-color: rgb(74, 130, 252);
+    text-align:center;
+    font-size: 3em;
+    font-weight: bold;
+    color: aliceblue;}
+
+/*ESPECIFICIDAD DE SELECTORES*/
+
+.principal h2{font-weight: 2em;}
+
+.principal div p {text-align: justify;}
+
+.contenido {align-items: center;}
+
+.container {width: 75%;
+    margin: auto;
+    padding: 15px;
+    display: flex; 
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-start;}
+
+/*Imagenes y texto*/
+
+.hijo1, .hijo2, .imagen1, .imagen2 { background-color:rgb(74, 130, 252) ; 
+    width: 100%;
+    min-height: 1px;
+    margin: 15px auto;
+    padding: 15px;
+    color: aliceblue;
+    text-align: justify;}
+
+.imagen1 { float: left;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    width: 50%; 
+    height: auto;}
+
+.imagen2 {float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 50%; 
+    height:auto;
+}
+
+.hijo1.imagen1, .hijo2.imagen2 {  
+    max-width: 50%;
+    max-height: 50%;}
+
+/*Pie de pagina*/
+.pie {margin-top: 25px;
+    min-height: 80px;
+    background-color: rgb(74, 130, 252);}
+
+    .pie p {text-align: center;
+        line-height: 3em;
+        font-weight: bold;
+        color: whitesmoke;}
+
+/*Formulario*/
+
+.formulario input, .formulario textarea  {width: 100%; 
+        border-radius: 3px;
+        height: 35px;
+        margin-bottom: 5px;
+        border-color: transparent;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.671);}
+
+.formulario textarea {max-width: 100%;
+        min-width: 100%;
+        max-height: 100px;
+        min-height: 100px;}
+
+#btn {width: 200px; }
+
+

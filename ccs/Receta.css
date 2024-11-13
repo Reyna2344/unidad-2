@@ -1,0 +1,63 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+ padding: 0;}
+
+ body { font-family: "Sofia", cursive;}
+    
+    div,header, footer, main {box-sizing: border-box;}
+
+h1 {text-align: center;}
+
+/*ESPECIFICIDAD DE SELECTORES*/
+
+.cabecera {min-height: 1px;
+    font-size: 1.5em; 
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 5px solid;
+    text-shadow: 1px 1px 3px rgba(255,98,98,1);
+    color: aliceblue;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(255,161,175,1) 40%, rgba(255,98,98,1) 100%); }
+
+
+.contenido {width: 100%;
+    margin: 0px auto;
+    padding: 50px 15%;
+    display: flex;}
+
+.contenido div img {background-color:rgba(255,98,98,1); 
+    width: 60%;
+    min-height: 1px;
+    margin: 15px auto;
+    padding: left 15px;
+    display: flex;}
+
+ .contenido h2 {padding: 50px 50px ;}   
+
+.contenido ol h3 {
+    display: flex;}
+
+.principal { width: 100%;
+    padding: 0px 0px;}
+
+/*Imagenes*/
+.principal img {margin: auto;
+    display: block;
+    padding: 5px;}
+
+/*Pie de pagina*/
+.pie {height: 100px; 
+    background:  rgba(255,161,175,1) 40%;}
+
+.pie p {text-align: center; 
+color: aliceblue;
+font-weight: 700;
+line-height: 6em;}
+
+
+
+
+
+

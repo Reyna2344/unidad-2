@@ -1,0 +1,123 @@
+/*Documento CSS*/
+
+* { margin: 0;
+    padding: 0;}
+
+body {font-family: "Roboto", sans-serif;}
+
+div,header,section, footer, article, main {box-sizing: border-box;}
+
+header { padding:15px 50px;
+         margin: auto;
+         background-color:#1F1F1F;
+         color: aliceblue;
+        }
+
+/*Container e items generales*/
+
+.container {display: flex;
+                     height: auto;}
+
+.section-container {flex: 0 0 30%;
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 4% 5% 50px 3%;
+background-color:#1F1F1F;
+color: aliceblue;}
+
+.main-container {flex: 0 0 70%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: flex-start;
+                  padding: 50px;
+                  background-color: #e65298;
+                  color: #1F1F1F;}
+
+.items {text-align: justify;
+        width: 98%;
+        background-size: 100%;}
+
+/*Iconos Contacto*/           
+.bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill {color:#e65298;}
+
+/*Iconos Redes sociales*/
+.bi-instagram, .bi-tiktok, .bi-twitter-x {color:#e65298;}
+
+/*Iconos Idiomas*/
+.bi-circle-fill, .bi-circle-half {color:#e65298;}
+
+/*Iconos Estudios*/
+.bi-mortarboard-fill {color:#e65298;}
+
+
+
+/*.items li, .items p {color: aliceblue;}*/
+
+/*.items h2, h4, h5, h6 {
+color: aliceblue;}*/
+            
+                
+.items h4, .items h5, .items h6 {
+        font-size: 1em;
+        text-align: justify;}
+                
+.lista { text-align: justify;
+          }     
+                
+.items p {text-align: justify;}
+
+/*Formulario*/
+
+.final {background-color: #1F1F1F;
+        color: aliceblue;
+    padding: 30px 100px 20px 100px;}
+
+.formulario input, .formulario textarea  {width: 100%; 
+    border-radius: 3px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-color: transparent;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.671);}
+
+.formulario textarea {max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;}
+
+/*Links*/
+.hijo1{color: aliceblue;
+    font-weight: bold;
+}
+
+.items a:link { color:aliceblue;
+        text-decoration: none;}
+        
+.items a:hover {color: blueviolet;
+        background-color: aqua;}
+        
+.items a:active {color: white;
+            background-color: black;
+            font-size: 1em;}
+
+.texto a:link { color: aliceblue;
+                font-weight: bold;
+                text-decoration: none;}
+
+.texto a:hover {color: blueviolet;
+                    background-color: aqua;}
+
+.texto a:active {color: white;
+                        background-color: black;
+                        font-size: 1em;}
+
+/*Pie de página*/
+
+footer {background-color: #e65298;
+        padding: 20px 5px 20px 5px;}
+
+footer p {text-align: center;
+          color:#1F1F1F;}
+
+    
+

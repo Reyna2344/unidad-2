@@ -1,0 +1,44 @@
+/*Documento CSS*/
+
+* {margin: 0;
+   padding: 0;}
+
+.redes {display:flex;
+        flex-flow: wrap row;
+        justify-content:space-around;
+        align-items: center;
+        width: 80%;
+        margin: 20px auto;
+}
+
+.redes a { width: 33.33%;
+           text-align: center; 
+           font-size: 1em;
+           color: black;
+
+        }
+
+@Media only screen and (min-width:560px){
+        .container {padding: 25px;}
+
+        .items {width: 49%;
+            height: 190px;}
+    
+        h4 { font-size: 3em;
+            padding-top: 120px;}
+    
+        .primero { margin-right: 1%;
+                   margin-bottom: 10px;}
+}
+
+@Media only screen and (min-width:1280px){
+
+   .container { width: 95%;
+                justify-content: space-around;}
+
+   .items {width:24% ;
+           margin: 0px;
+           height: 190px;}
+
+   h4 { font-size: 7em;}
+}

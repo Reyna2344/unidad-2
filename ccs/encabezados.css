@@ -1,0 +1,41 @@
+/*Documento css*/
+
+body { background-color: rgb(35, 36, 36);
+    font-family: "Oswald", sans-serif;
+color: white;}
+
+h1, h3 { color: tomato; 
+    font-size: 2em; 
+    font-weight: bold; 
+    text-transform: uppercase; }
+
+h2, h4 { color: orange;}
+
+div p small { color: red;
+font-weight: bold;}
+
+/*ESPECIFICIDAD DE SELECTORES*/
+
+.lista { background-color: #c7f1c7; 
+    width: 60%;
+    min-height: 1px;
+    margin: 15px auto;
+    padding: 15px;}
+
+.relleno { padding-left: 30px ;}
+
+.centrar { margin: auto;
+    display: block;
+    padding: 5px;}
+
+.cabecera { background: lightpink;
+    padding: 15px 0px;}
+
+/*Palabra subraydas*/
+
+.principal a:link { color: red;
+    font-weight: bold;   
+    text-decoration: none;}
+
+    
+    

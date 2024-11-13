@@ -1,0 +1,49 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+div, header, nav {box-sizing: border-box;}
+
+/*Encabezados*/
+
+/*Layout o Maquetación*/
+
+.cabecera { width: 100%; 
+            min-height: 1px;
+            background: rgb(255, 63, 63); }
+
+.bar { width: 100%;
+       text-align: center;
+       font-size: 3em;
+       color: whitesmoke;
+       padding: 8px 0px;}
+
+.menu { width:100%;
+        display: flex; 
+        min-height: 1px;
+        background: whitesmoke;}
+
+.items { width: 25%;
+         text-align: center;
+         color: black;
+         font-family: "Montserrat", sans-serif; 
+         text-decoration: none;
+        padding: 8px 0px 8px 0px;}
+
+/*Media Queries o Pantallas*/
+
+
+@media only screen and ( min-width: 1280px) {
+    .menu { width: 70%;
+            margin: auto;
+            position: relative;
+            top: 19px;}
+
+    .items {border: 1px solid rgba(0, 0, 0, 0.185);}
+
+    .items:first-child {border-top-left-radius: 20px;
+                        border-bottom-left-radius: 20px;}
+    
+    .items:last-child {border-top-right-radius: 20px;
+                       border-bottom-right-radius: 20px;}}

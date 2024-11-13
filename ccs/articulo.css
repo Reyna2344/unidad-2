@@ -9,9 +9,9 @@ body {background-color: lavenderblush;
 header, main, div, footer, nav, article { box-sizing: border-box;}
 
 h1 { color: mediumvioletred; 
-    padding: 15px 0px;
+    padding: 15 px 0 px;
     text-align: center;
-    font-size: 2em; 
+    font-size: 2 em; 
     font-weight: bold; }
 
 
@@ -19,7 +19,7 @@ h2 {text-align: center;}
 
 header h1 { color: whitesmoke;
     background-color: purple;
-    font-size: 3em; 
+    font-size: 3 em; 
     font-weight: bold; 
 }
 
@@ -27,30 +27,30 @@ header h1 { color: whitesmoke;
 
 div p {text-align: center;}
 
-section p {padding: 15px 150px 15px 150px;}
+section p {padding: 15 px 150 px 15 px 150 px;}
 
 div table caption h1 {
     color: black;
-    padding: 15px 0px;
+    padding: 15 px 0 px;
     text-align: center;
-    font-size: 1.5em; 
+    font-size: 1.5 em; 
     font-weight: bold;  }
 
 .lista { color: whitesmoke;
     background-color: mediumvioletred; 
-    width: 60%;
-    min-height: 1px;
-    margin: 15px auto;
-    padding: 15px;
+    width: 60 %;
+    min-height: 1 px;
+    margin: 15 px auto;
+    padding: 15 px;
     text-align: center;}
 
 
-.relleno { padding-left: 30px ;}
+.relleno { padding-left: 30 px ;}
 
 .centrar { margin: auto;
     display: block;
-    padding: 5px;}
+    padding: 5 px;}
 
-    .cabecera { background:rgb(247, 174, 235);
-        padding: 15px 0px;}
+    .cabecera { background:rgb (247, 174, 235);
+        padding: 15 px 0 px;}
     

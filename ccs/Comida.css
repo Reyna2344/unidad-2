@@ -7,7 +7,7 @@ body {font-family: "Istok Web", sans-serif;}
 
 section, header, footer, div, main, img {box-sizing: border-box;}
 
-h1 {background-color: rgb (74, 130, 252);
+h1 {background-color: rgb(74, 130, 252);
     text-align:center;
     font-size: 3 em;
     font-weight: bold;
